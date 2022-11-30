@@ -1,0 +1,119 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.header-logo-accent {
+    color: var(--black-color);
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
+}
+
+
+.nav-link {
+    position: relative;
+
+    font-weight: 500;
+    color: var(--title-color);
+    text-decoration: none;
+    transition: color var(--transition-time) var(--transition-cubic);
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+.current {
+    padding-bottom: 32px;
+    color: var(--accent-color);
+    &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            transform: translateY(1px);
+            scale: 1.09;
+            display: block;
+            width: 100%;
+            height: 4px;
+            padding: 0;
+            background: var(--accent-color);
+            border-radius: 2px;
+        }
+}
+
+
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.contact-item {
+    margin-right: 50px;
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
+
+
+.mail-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.mail-link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: color var(--transition-time) var(--transition-cubic);
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.phone-link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: color var(--transition-time) var(--transition-cubic);
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+.phone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+

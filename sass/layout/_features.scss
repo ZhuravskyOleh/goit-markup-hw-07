@@ -1,0 +1,31 @@
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.features-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-btn-portpholio);
+}
+
+.feature-item {
+    width: 270px;
+}
+
+.features-list-title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.features-descr {
+    line-height: 1.7;
+}

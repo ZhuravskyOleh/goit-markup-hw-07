@@ -1,0 +1,21 @@
+.hero {
+    margin: 0 auto;
+    background-image: linear-gradient(var(--hero-bg-gradient), var(--hero-bg-gradient)), url(../image/hero-bgr.jpg);
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.hero-title {
+    width: 696px;
+    margin: 0 auto 30px auto;
+
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
