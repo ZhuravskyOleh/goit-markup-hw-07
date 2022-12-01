@@ -4,7 +4,7 @@
     border-bottom: 1px solid var(--border-bottom-color);
 }
 
-.header-list {
+.header__wrap {
     display: flex;
     align-items: center;
 }
@@ -18,18 +18,18 @@
     text-decoration: none;
 }
 
-.header-logo-accent {
+.header__logo--accent {
     color: var(--black-color);
 }
 
-.nav-list {
+.nav__list {
     display: flex;
     margin-left: 93px;
     gap: 50px;
 }
 
 
-.nav-link {
+.nav__link {
     position: relative;
 
     font-weight: 500;
@@ -69,7 +69,7 @@
     margin-left: auto;
 }
 
-.contact-item {
+.contact-list__item {
     margin-right: 50px;
     &:last-child {
             margin-right: 0;
@@ -83,7 +83,7 @@
     fill: currentColor;
 }
 
-.mail-link {
+.contact-list__mail {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -98,7 +98,7 @@
 
 
 
-.phone-link {
+.contact-list__phone {
     display: flex;
     align-items: center;
     font-weight: 500;
