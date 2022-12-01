@@ -4,7 +4,11 @@
     gap: 30px;
 }
 
-.features-icon-box {
+.features-list__item{
+    width: 270px;
+}
+
+.features__iconBox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,17 +19,15 @@
     background-color: var(--background-btn-portpholio);
 }
 
-.feature-item {
-    width: 270px;
-}
 
-.features-list-title {
+
+.features-list__title {
     margin-bottom: 10px;
 
     font-weight: 700;
     color: var(--title-color);
 }
 
-.features-descr {
+.features-list__descr {
     line-height: 1.7;
 }

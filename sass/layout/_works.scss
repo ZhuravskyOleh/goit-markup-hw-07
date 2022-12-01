@@ -1,8 +1,8 @@
-.we-do {
+.works {
     padding-bottom: 94px;
 }
 
-.we-do-title {
+.works-title {
     margin-bottom: 50px;
 
     font-size: 36px;
@@ -12,24 +12,20 @@
     text-align: center;
 }
 
-.we-do-list {
+.works-list {
     display: flex;
     gap: 30px;
 }
 
-.we-do-item {
+.works-list__item {
     width: calc((100% - 60px)/2);
 }
 
-.we-do-overlay {
+.works-list__overlay {
     position: relative;
 }
 
-.we-do-img {
-    display: block;
-}
-
-.we-do-text {
+.works-list__text {
     /* padding: 27px 107px; */
     display: flex;
     align-items: center;

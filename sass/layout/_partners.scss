@@ -20,7 +20,7 @@
     gap: 30px;
 }
 
-.partners-link {
+.partners-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,14 +38,14 @@
         }
 }
 
-.partners-icon {
+.partners-list__icon {
     width: 106px;
     height: 60px;
     fill: currentColor;
     transition: all var(--transition-time) var(--transition-cubic);
 
-    .partners-link:hover &,
-        .partners-link:focus & {
+    .partners-list__link:hover &,
+        .partners-list__link:focus & {
             fill: var(--accent-color);
         }
 }
