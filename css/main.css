@@ -70,6 +70,10 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 .btn {
   font-family: inherit;
   font-size: 16px;
@@ -221,6 +225,8 @@ p {
   background-image: linear-gradient(var(--hero-bg-gradient), var(--hero-bg-gradient)), url(../image/hero-bgr.jpg);
   max-width: 1600px;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
